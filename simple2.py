@@ -10,7 +10,7 @@ video_link = "https://vt.tiktok.com/ZSy7muE67/"
 selected = "3"
 data = requests.get("https://zefame-free.com/api_free.php?action=config").json()
 services = data.get('data', {}).get('tiktok', {}).get('services', [])
-selected = services[2]
+selected = services[0]
 
 order = requests.post("https://zefame-free.com/api_free.php?action=order", data={"service": selected.get('id'), "link": video_link, "uuid": str(uuid.uuid4()), "videoId": video_id})
 result = order.json()
