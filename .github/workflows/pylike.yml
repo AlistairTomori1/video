@@ -32,3 +32,6 @@ jobs:
 
       - name: Run script3
         run: python simple3.py
+
+      - name: Run script4
+        run: python simple4.py
