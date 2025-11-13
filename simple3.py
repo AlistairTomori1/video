@@ -6,7 +6,7 @@ init(autoreset=True)  # Initialize colorama
 API="https://zefame-free.com/api_free.php?action=config"
 
 video_id = "7559620502021606664"
-video_link = "https://vt.tiktok.com/ZSy7mAcos/"
+video_link = "https://vt.tiktok.com/ZSynJ4R2N/"
 selected = "3"
 data = requests.get("https://zefame-free.com/api_free.php?action=config").json()
 services = data.get('data', {}).get('tiktok', {}).get('services', [])
