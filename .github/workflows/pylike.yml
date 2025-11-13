@@ -26,4 +26,5 @@ jobs:
 
       - name: Run script
         # Change script.py to your actual script name or path
-        run: python simple.py
+        run: python simple.py python simple2.py python simple3.py
+        
