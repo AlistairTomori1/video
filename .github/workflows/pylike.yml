@@ -25,6 +25,10 @@ jobs:
           pip install requests colorama
 
       - name: Run script
-        # Change script.py to your actual script name or path
-        run: python simple.py python simple2.py python simple3.py
-        
+        run: python simple.py
+
+      - name: Run script2
+        run: python simple2.py
+
+      - name: Run script3
+        run: python simple3.py
