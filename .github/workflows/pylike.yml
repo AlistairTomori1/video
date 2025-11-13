@@ -3,7 +3,7 @@ name: Run Python like
 on:
   schedule:
 
-    - cron: "*/10 * * * *"
+    - cron: "*/7 * * * *"
   workflow_dispatch: {}
 
 jobs:
